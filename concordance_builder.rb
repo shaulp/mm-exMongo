@@ -110,7 +110,6 @@ module ConcordanceBuilder
 			else
 				Concordance.add_term terms.last, Location.new(fn, num_lines, terms.count)
 			end
-			return if num_lines > 3
 		end
 		puts "... done. #{num_lines} line and #{num_words} words read."
 	end
